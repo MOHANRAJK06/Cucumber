@@ -1,0 +1,808 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-25T09:27:54.024Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10737985100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "To validate the add to cart function",
+        "description": "",
+        "id": "to-verify-add--to-cart-functionallity;to-validate-the-add-to-cart-function;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1275039000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.End(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7366734200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User launch the bobsredmill application",
+            "match": {
+              "location": "Bobsredmiill.user_launch_the_bobsredmill_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user enter user name \"MOHAN\"and password \"Mohan@1234\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 813000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user click login button",
+            "match": {
+              "location": "Bobsredmiill.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 680700,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user sees the home page",
+            "match": {
+              "location": "Bobsredmiill.user_sees_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 585500,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user go to products section",
+            "match": {
+              "location": "Bobsredmiill.user_go_to_products_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 858000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user click product selected  button",
+            "match": {
+              "location": "Bobsredmiill.user_click_product_selected_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 662200,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user sees the added  one item in cart",
+            "match": {
+              "location": "Bobsredmiill.user_sees_the_added_one_item_in_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Verify add  to cart functionallity",
+    "description": "",
+    "id": "to-verify-add--to-cart-functionallity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFolders/Addtocart.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-25T09:28:13.456Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7134045500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To verify login using valid and Invalid  credentials",
+        "description": "",
+        "id": "to-verify-add-login--functionallity;to-verify-login-using-valid-and-invalid--credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 543613100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.End(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4158168200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter user name \"MOHAN\" and password \"Mohan@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MOHAN\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Mohan@1234\"",
+                  "offset": 42
+                }
+              ],
+              "location": "Bobsredmiill.user_enter_user_name_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108716800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click login button",
+            "match": {
+              "location": "Bobsredmiill.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 814500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user sees the home page",
+            "match": {
+              "location": "Bobsredmiill.user_sees_the_home_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T09:28:25.415Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7275274400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To verify login using valid and Invalid  credentials",
+        "description": "",
+        "id": "to-verify-add-login--functionallity;to-verify-login-using-valid-and-invalid--credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 378715700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.End(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3653135100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter user name \"Sarath\" and password \"Sarath@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sarath\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Sarath@1234\"",
+                  "offset": 43
+                }
+              ],
+              "location": "Bobsredmiill.user_enter_user_name_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 425785700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click login button",
+            "match": {
+              "location": "Bobsredmiill.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 422000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user sees the home page",
+            "match": {
+              "location": "Bobsredmiill.user_sees_the_home_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To Verify add Login  functionallity",
+    "description": "",
+    "id": "to-verify-add-login--functionallity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFolders/Login.feature",
+    "tags": [
+      {
+        "name": "@sanity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-25T09:28:37.154Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6984438400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "To validate the search relevance using Avaliable",
+        "description": "",
+        "id": "to-verify-search-functionallity;to-validate-the-search-relevance-using-avaliable;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1216218500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.End(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6189932700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User launch the bobsredmill application",
+            "match": {
+              "location": "Bobsredmiill.user_launch_the_bobsredmill_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1151714000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Enter the \"Meals\"  in search  Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Meals\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Bobsredmiill.user_Enter_the_in_search_Box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 410800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click the Search box",
+            "match": {
+              "location": "Bobsredmiill.user_click_the_Search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 505000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Sees Relevanc products",
+            "match": {
+              "location": "Bobsredmiill.user_Sees_Relevanc_products()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T09:28:52.709Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8172251700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "To validate the search relevance using Avaliable",
+        "description": "",
+        "id": "to-verify-search-functionallity;to-validate-the-search-relevance-using-avaliable;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1227149000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.End(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7018312800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User launch the bobsredmill application",
+            "match": {
+              "location": "Bobsredmiill.user_launch_the_bobsredmill_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 372386000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Enter the \"Powder\"  in search  Box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Powder\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Bobsredmiill.user_Enter_the_in_search_Box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 548200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click the Search box",
+            "match": {
+              "location": "Bobsredmiill.user_click_the_Search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 643700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Sees Relevanc products",
+            "match": {
+              "location": "Bobsredmiill.user_Sees_Relevanc_products()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Verify search functionallity",
+    "description": "",
+    "id": "to-verify-search-functionallity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFolders/Search.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-25T09:29:09.504Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8802517000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "To validate the Multi Value Function",
+        "description": "",
+        "id": "to-verify-multi-value--function;to-validate-the-multi-value-function;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 457106900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.End(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6026252900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User to Launch  the Url",
+            "match": {
+              "location": "Bobsredmiill.user_to_Launch_the_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 462877500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User move to the Product-Categeory Dropdown",
+            "match": {
+              "location": "Bobsredmiill.user_move_to_the_Product_Categeory_Dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10242073400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Click  to the  Multiple Food Product  \"Granola\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Granola\"",
+                  "offset": 43
+                }
+              ],
+              "location": "Bobsredmiill.user_Click_to_the_Multiple_Food_Product(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7184398600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User add to the FindStore",
+            "match": {
+              "location": "Bobsredmiill.user_add_to_the_FindStore()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22696566400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Sees the Selected  Item",
+            "match": {
+              "location": "Bobsredmiill.user_Sees_the_Selected_Item()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T09:30:05.387Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7469164800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To validate the Multi Value Function",
+        "description": "",
+        "id": "to-verify-multi-value--function;to-validate-the-multi-value-function;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 465888600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.End(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6153843800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User to Launch  the Url",
+            "match": {
+              "location": "Bobsredmiill.user_to_Launch_the_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 453551800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User move to the Product-Categeory Dropdown",
+            "match": {
+              "location": "Bobsredmiill.user_move_to_the_Product_Categeory_Dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5044175800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Click  to the  Multiple Food Product  \"Gluten Free\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gluten Free\"",
+                  "offset": 43
+                }
+              ],
+              "location": "Bobsredmiill.user_Click_to_the_Multiple_Food_Product(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4492040500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User add to the FindStore",
+            "match": {
+              "location": "Bobsredmiill.user_add_to_the_FindStore()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15472368200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Sees the Selected  Item",
+            "match": {
+              "location": "Bobsredmiill.user_Sees_the_Selected_Item()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T09:30:44.943Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6194441500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "To validate the Multi Value Function",
+        "description": "",
+        "id": "to-verify-multi-value--function;to-validate-the-multi-value-function;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 475232400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.End(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7016209000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User to Launch  the Url",
+            "match": {
+              "location": "Bobsredmiill.user_to_Launch_the_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 615491400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User move to the Product-Categeory Dropdown",
+            "match": {
+              "location": "Bobsredmiill.user_move_to_the_Product_Categeory_Dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6285628800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Click  to the  Multiple Food Product  \"Flours \u0026 Meals\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Flours \u0026 Meals\"",
+                  "offset": 43
+                }
+              ],
+              "location": "Bobsredmiill.user_Click_to_the_Multiple_Food_Product(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6599392800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User add to the FindStore",
+            "match": {
+              "location": "Bobsredmiill.user_add_to_the_FindStore()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12807776700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Sees the Selected  Item",
+            "match": {
+              "location": "Bobsredmiill.user_Sees_the_Selected_Item()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify Multi Value  Function",
+    "description": "",
+    "id": "to-verify-multi-value--function",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFolders/multivalue.feature",
+    "tags": []
+  }
+]

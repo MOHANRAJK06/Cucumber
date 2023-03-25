@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="8" time="210.897031">
+<testcase classname="To Verify add  to cart functionallity" name="To validate the add to cart function" time="19.415575">
+<skipped><![CDATA[Given User launch the bobsredmill application...............................passed
+When user enter user name "MOHAN"and password "Mohan@1234"..................undefined
+And user click login button.................................................skipped
+And user sees the home page.................................................skipped
+And user go to products section.............................................skipped
+And user click product selected  button.....................................skipped
+Then user sees the added  one item in cart..................................skipped
+]]></skipped>
+</testcase>
+<testcase classname="To Verify add Login  functionallity" name="To verify login using valid and Invalid  credentials" time="11.958216">
+<system-out><![CDATA[When user enter user name "MOHAN" and password "Mohan@1234".................passed
+And user click login button.................................................passed
+And user sees the home page.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify add Login  functionallity" name="To verify login using valid and Invalid  credentials 2" time="11.737701">
+<system-out><![CDATA[When user enter user name "Sarath" and password "Sarath@1234"...............passed
+And user click login button.................................................passed
+And user sees the home page.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify search functionallity" name="To validate the search relevance using Avaliable" time="15.554083">
+<system-out><![CDATA[Given User launch the bobsredmill application...............................passed
+When user Enter the "Meals"  in search  Box.................................passed
+And user click the Search box...............................................passed
+Then user Sees Relevanc products............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify search functionallity" name="To validate the search relevance using Avaliable 2" time="16.79479">
+<system-out><![CDATA[Given User launch the bobsredmill application...............................passed
+When user Enter the "Powder"  in search  Box................................passed
+And user click the Search box...............................................passed
+Then user Sees Relevanc products............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To verify Multi Value  Function" name="To validate the Multi Value Function" time="55.882148">
+<system-out><![CDATA[Given User to Launch  the Url...............................................passed
+When User move to the Product-Categeory Dropdown............................passed
+And User Click  to the  Multiple Food Product  "Granola"....................passed
+And User add to the FindStore...............................................passed
+Then User Sees the Selected  Item...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To verify Multi Value  Function" name="To validate the Multi Value Function 2" time="39.555135">
+<system-out><![CDATA[Given User to Launch  the Url...............................................passed
+When User move to the Product-Categeory Dropdown............................passed
+And User Click  to the  Multiple Food Product  "Gluten Free"................passed
+And User add to the FindStore...............................................passed
+Then User Sees the Selected  Item...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To verify Multi Value  Function" name="To validate the Multi Value Function 3" time="39.999383">
+<system-out><![CDATA[Given User to Launch  the Url...............................................passed
+When User move to the Product-Categeory Dropdown............................passed
+And User Click  to the  Multiple Food Product  "Flours & Meals".............passed
+And User add to the FindStore...............................................passed
+Then User Sees the Selected  Item...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
