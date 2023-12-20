@@ -5,6 +5,7 @@ import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -580,7 +581,7 @@ public class Baseclass {
 	// 83.
 	// Q.4,5,6,7,8,9,10 Creat an Excel sheet all required details for registration.
 
-	public static String getData(int rowN, int celN) throws IOException {
+	public static String getData(int rowN, int celN) throws IOException   {
 
 		File f = new File("D:\\MOHAN\\Workspace\\FrameTask\\target\\Data\\TASK08.xlsx");
 

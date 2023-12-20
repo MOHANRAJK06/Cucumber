@@ -21,12 +21,14 @@ import mypac.Page;
 public class Bobsredmiill extends Baseclass {
 
 	public static Page p;
+	
 	public static JavascriptExecutor js;
 
 	@Given("User launch the bobsredmill application")
+	
 	public void user_launch_the_bobsredmill_application() {
 
-		EdgeLaunch();
+		laChorme();
 		loadUrl("https://www.bobsredmill.com/");
 		wMaximaize();
 		priTittle();

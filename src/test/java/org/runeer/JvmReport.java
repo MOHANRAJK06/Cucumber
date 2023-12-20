@@ -10,8 +10,7 @@ import net.masterthought.cucumber.ReportBuilder;
 public class JvmReport {
 	
 	 public static void GeneratJvmreport(String jvm) {
-			// TODO Auto-generated method stub
-
+			
 
 				File f = new File(System.getProperty("user.dir")+"\\src\\test\\resources\\Reports\\jvm");
 				
@@ -21,7 +20,8 @@ public class JvmReport {
 				
 				con.addClassifications("Browseverson", "107");
 				
-				List <String>  li = new ArrayList<String>();
+				List <String>  li = new ArrayList <String> ();
+				
 				li.add(jvm);
 				
 				ReportBuilder r = new ReportBuilder(li,con);

@@ -48,20 +48,20 @@ $(document).ready(function() {
   $(document).ready(function() {
 
     var chartData = {
-        labels:  [ "@sanity", ] ,
+        labels:  [ "@mastro", ] ,
         datasets: [
             {
                 label: "Passed",
                 backgroundColor: "#92DD96",
-                data:  [ 100.00, ]             },
+                data:  [ 0.00, ]             },
             {
                 label: "Failed",
                 backgroundColor: "#F2928C",
-                data:  [ 0.00, ]             },
+                data:  [ 25.00, ]             },
             {
                 label: "Skipped",
                 backgroundColor: "#8AF",
-                data:  [ 0.00, ]             },
+                data:  [ 75.00, ]             },
             {
                 label: "Pending",
                 backgroundColor: "#F5F28F",
@@ -128,7 +128,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>Bobs Application</td>
-            <td>25 Mar 2023, 15:01</td>
+            <td>16 Nov 2023, 00:13</td>
     </tr>
   </tbody>
 </table>
@@ -190,54 +190,54 @@ $(document).ready(function() {
 
   <tbody>
           <tr>
-        <td class="tagname"><a href="report-tag_2203492621.html">@sanity</a></td>
+        <td class="tagname"><a href="report-tag_2031877169.html">@mastro</a></td>
 
-        <td      class="passed"    >6</td>
+        <td >0</td>
+        <td      class="failed"    >2</td>
+        <td     class="skipped"   >6</td>
         <td >0</td>
         <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">6</td>
+        <td class="total">8</td>
 
-        <td  class="passed"    >2</td>
         <td >0</td>
+        <td  class="failed"    >2</td>
         <td class="total">2</td>
 
-        <td class="duration" data-value="8347042300">8.347</td>
-        <td class="passed">Passed</td>
+        <td class="duration" data-value="13200626400">13.200</td>
+        <td class="failed">Failed</td>
       </tr>
       </tbody>
 
   <tfoot class="total">
     <tr>
       <td></td>
+      <td>0</td>
+      <td>2</td>
       <td>6</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>6</td>
+      <td>8</td>
 
-      <td>2</td>
       <td>0</td>
       <td>2</td>
+      <td>2</td>
 
-      <td class="duration">8.347</td>
+      <td class="duration">13.200</td>
       <td>1</td>
     </tr>
     <tr>
       <td></td>
-            <td>100.00%</td>
-      <td>0.00%</td>
-      <td>0.00%</td>
-      <td>0.00%</td>
-      <td>0.00%</td>
-      <td></td>
-      <td>100.00%</td>
-      <td>0.00%</td>
-      <td></td>
-      <td></td>
+            <td>0.00%</td>
+      <td>25.00%</td>
       <td>75.00%</td>
+      <td>0.00%</td>
+      <td>0.00%</td>
+      <td></td>
+      <td>0.00%</td>
+      <td>100.00%</td>
+      <td></td>
+      <td></td>
+      <td>0.00%</td>
     </tr>
   </tfoot>
 </table>

@@ -2,6 +2,7 @@ package org.steps;
 
 import java.io.IOException;
 
+import org.junit.AfterClass;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.annotations.BeforeClass;
@@ -28,10 +29,8 @@ public class Hooks extends Baseclass{
 	}
 	
 	@After
-	public void End(Scenario s) throws IOException {
-		
-		
-	
+	public void End (Scenario s) throws IOException   {
+			
 		
 		if (s.isFailed()) {
 			

@@ -1,290 +1,13 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/FeatureFolders/Addtocart.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/FeatureFolders/Search.feature");
 formatter.feature({
-  "name": "To Verify add  to cart functionallity",
-  "description": "",
-  "keyword": "Feature"
-});
-formatter.scenarioOutline({
-  "name": "To validate the add to cart function",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "User launch the bobsredmill application",
-  "keyword": "Given "
-});
-formatter.step({
-  "name": "user enter user name \"\u003cMAILID\u003e\"and password \"\u003cPASSWORD\u003e\"",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "user click login button",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user sees the home page",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user go to products section",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user click product selected  button",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user sees the added  one item in cart",
-  "keyword": "Then "
-});
-formatter.examples({
-  "name": "",
-  "description": "",
-  "keyword": "Examples",
-  "rows": [
-    {
-      "cells": [
-        "MAILID",
-        "PASSWORD"
-      ]
-    },
-    {
-      "cells": [
-        "MOHAN",
-        "Mohan@1234"
-      ]
-    }
-  ]
-});
-formatter.scenario({
-  "name": "To validate the add to cart function",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User launch the bobsredmill application",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_launch_the_bobsredmill_application()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enter user name \"MOHAN\"and password \"Mohan@1234\"",
-  "keyword": "When "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "user click login button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_click_login_button()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "user sees the home page",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_sees_the_home_page()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "user go to products section",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_go_to_products_section()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "user click product selected  button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_click_product_selected_button()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "user sees the added  one item in cart",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_sees_the_added_one_item_in_cart()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.uri("file:src/test/resources/FeatureFolders/Login.feature");
-formatter.feature({
-  "name": "To Verify add Login  functionallity",
+  "name": "To Verify search functionallity",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@sanity"
+      "name": "@mastro"
     }
   ]
-});
-formatter.scenarioOutline({
-  "name": "To verify login using valid and Invalid  credentials",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "user enter user name \"\u003cMAILID\u003e\" and password \"\u003cPASSWORD\u003e\"",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "user click login button",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user sees the home page",
-  "keyword": "And "
-});
-formatter.examples({
-  "name": "",
-  "description": "",
-  "keyword": "Examples",
-  "rows": [
-    {
-      "cells": [
-        "MAILID",
-        "PASSWORD"
-      ]
-    },
-    {
-      "cells": [
-        "MOHAN",
-        "Mohan@1234"
-      ]
-    },
-    {
-      "cells": [
-        "Sarath",
-        "Sarath@1234"
-      ]
-    }
-  ]
-});
-formatter.scenario({
-  "name": "To verify login using valid and Invalid  credentials",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@sanity"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enter user name \"MOHAN\" and password \"Mohan@1234\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_enter_user_name_and_password(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user click login button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_click_login_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user sees the home page",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_sees_the_home_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "To verify login using valid and Invalid  credentials",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@sanity"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enter user name \"Sarath\" and password \"Sarath@1234\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_enter_user_name_and_password(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user click login button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_click_login_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user sees the home page",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_sees_the_home_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.uri("file:src/test/resources/FeatureFolders/Search.feature");
-formatter.feature({
-  "name": "To Verify search functionallity",
-  "description": "",
-  "keyword": "Feature"
 });
 formatter.scenarioOutline({
   "name": "To validate the search relevance using Avaliable",
@@ -332,7 +55,12 @@ formatter.examples({
 formatter.scenario({
   "name": "To validate the search relevance using Avaliable",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@mastro"
+    }
+  ]
 });
 formatter.before({
   "status": "passed"
@@ -345,7 +73,8 @@ formatter.match({
   "location": "Bobsredmiill.user_launch_the_bobsredmill_application()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 119.0.6045.159 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe \nHost info: host: \u0027SARATH\u0027, ip: \u0027192.168.0.102\u0027\nBuild info: version: \u00274.8.2\u0027, revision: \u0027826dbfc730\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_341\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities\u003d[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins\u003d*], extensions: []}}], desiredCapabilities\u003dCapabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins\u003d*], extensions: []}}}]\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:106)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:157)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:101)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:88)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:84)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:52)\r\n\tat mypac.Baseclass.laChorme(Baseclass.java:61)\r\n\tat org.steps.Bobsredmiill.user_launch_the_bobsredmill_application(Bobsredmiill.java:31)\r\n\tat ✽.User launch the bobsredmill application(file:src/test/resources/FeatureFolders/Search.feature:8)\r\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "user Enter the \"Meals\"  in search  Box",
@@ -355,7 +84,7 @@ formatter.match({
   "location": "Bobsredmiill.user_Enter_the_in_search_Box(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user click the Search box",
@@ -365,7 +94,7 @@ formatter.match({
   "location": "Bobsredmiill.user_click_the_Search_box()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user Sees Relevanc products",
@@ -375,15 +104,21 @@ formatter.match({
   "location": "Bobsredmiill.user_Sees_Relevanc_products()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
+formatter.embedding("image/png", "embedded0.png", null);
 formatter.after({
   "status": "passed"
 });
 formatter.scenario({
   "name": "To validate the search relevance using Avaliable",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@mastro"
+    }
+  ]
 });
 formatter.before({
   "status": "passed"
@@ -396,7 +131,8 @@ formatter.match({
   "location": "Bobsredmiill.user_launch_the_bobsredmill_application()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114\nCurrent browser version is 119.0.6045.159 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe \nHost info: host: \u0027SARATH\u0027, ip: \u0027192.168.0.102\u0027\nBuild info: version: \u00274.8.2\u0027, revision: \u0027826dbfc730\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_341\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities\u003d[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins\u003d*], extensions: []}}], desiredCapabilities\u003dCapabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins\u003d*], extensions: []}}}]\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:106)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:157)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:101)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:88)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:84)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:52)\r\n\tat mypac.Baseclass.laChorme(Baseclass.java:61)\r\n\tat org.steps.Bobsredmiill.user_launch_the_bobsredmill_application(Bobsredmiill.java:31)\r\n\tat ✽.User launch the bobsredmill application(file:src/test/resources/FeatureFolders/Search.feature:8)\r\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "user Enter the \"Powder\"  in search  Box",
@@ -406,7 +142,7 @@ formatter.match({
   "location": "Bobsredmiill.user_Enter_the_in_search_Box(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user click the Search box",
@@ -416,7 +152,7 @@ formatter.match({
   "location": "Bobsredmiill.user_click_the_Search_box()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user Sees Relevanc products",
@@ -426,249 +162,9 @@ formatter.match({
   "location": "Bobsredmiill.user_Sees_Relevanc_products()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
-formatter.after({
-  "status": "passed"
-});
-formatter.uri("file:src/test/resources/FeatureFolders/multivalue.feature");
-formatter.feature({
-  "name": "To verify Multi Value  Function",
-  "description": "",
-  "keyword": "Feature"
-});
-formatter.scenarioOutline({
-  "name": "To validate the Multi Value Function",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "User to Launch  the Url",
-  "keyword": "Given "
-});
-formatter.step({
-  "name": "User move to the Product-Categeory Dropdown",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "User Click  to the  Multiple Food Product  \"\u003csubCategeory\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "User add to the FindStore",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "User Sees the Selected  Item",
-  "keyword": "Then "
-});
-formatter.examples({
-  "name": "",
-  "description": "",
-  "keyword": "Examples",
-  "rows": [
-    {
-      "cells": [
-        "subCategeory"
-      ]
-    },
-    {
-      "cells": [
-        "Granola"
-      ]
-    },
-    {
-      "cells": [
-        "Gluten Free"
-      ]
-    },
-    {
-      "cells": [
-        "Flours \u0026 Meals"
-      ]
-    }
-  ]
-});
-formatter.scenario({
-  "name": "To validate the Multi Value Function",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User to Launch  the Url",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_to_Launch_the_Url()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User move to the Product-Categeory Dropdown",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_move_to_the_Product_Categeory_Dropdown()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User Click  to the  Multiple Food Product  \"Granola\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_Click_to_the_Multiple_Food_Product(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User add to the FindStore",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_add_to_the_FindStore()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User Sees the Selected  Item",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_Sees_the_Selected_Item()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "To validate the Multi Value Function",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User to Launch  the Url",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_to_Launch_the_Url()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User move to the Product-Categeory Dropdown",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_move_to_the_Product_Categeory_Dropdown()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User Click  to the  Multiple Food Product  \"Gluten Free\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_Click_to_the_Multiple_Food_Product(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User add to the FindStore",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_add_to_the_FindStore()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User Sees the Selected  Item",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_Sees_the_Selected_Item()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "To validate the Multi Value Function",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User to Launch  the Url",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_to_Launch_the_Url()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User move to the Product-Categeory Dropdown",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_move_to_the_Product_Categeory_Dropdown()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User Click  to the  Multiple Food Product  \"Flours \u0026 Meals\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_Click_to_the_Multiple_Food_Product(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User add to the FindStore",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_add_to_the_FindStore()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User Sees the Selected  Item",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Bobsredmiill.user_Sees_the_Selected_Item()"
-});
-formatter.result({
-  "status": "passed"
-});
+formatter.embedding("image/png", "embedded1.png", null);
 formatter.after({
   "status": "passed"
 });

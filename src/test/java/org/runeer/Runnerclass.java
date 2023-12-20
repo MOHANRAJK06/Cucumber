@@ -8,9 +8,10 @@ import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.CucumberOptions.SnippetType;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src\\test\\resources", glue = "org.steps",monochrome = true,dryRun = false, plugin = { "pretty", "html:src\\test\\resources\\Reports",
+@CucumberOptions(features = "src\\test\\resources", glue = "org.steps",monochrome = true,dryRun = false,tags="@mastro",plugin = { "html:src\\test\\resources\\Reports",
 				"junit:src\\test\\resources\\Reports\\bobs.xml", "json:src\\test\\resources\\Reports\\output.json",
 				"rerun:src\\\\test\\\\resources\\\\Reports\\mohan.txt" })
+
 
 public class Runnerclass {
 
